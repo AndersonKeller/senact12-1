@@ -28,6 +28,8 @@ main {
     justify-content: center;
     height: calc(100vh - 163px);
     background-color: #000;
+    flex-direction: column;
+    gap: 16px;
 }
 main button {
     cursor: pointer;
@@ -38,6 +40,10 @@ main button {
     color: #fff;
     font-size: 16px;
     font-weight: 600;
+}
+main section {
+    display: flex;
+    gap: 16px;
 }
 main section div{
     width: 200px;
